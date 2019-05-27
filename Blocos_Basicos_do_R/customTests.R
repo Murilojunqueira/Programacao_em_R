@@ -2,7 +2,7 @@
 # Formula para notificar a conclusão da mensagem por email
 notify <- function() {
   e <- get("e", parent.frame())
-  if(e$val == "No") return(TRUE)
+  if(e$val == "Nao") return(TRUE)
   
   good <- FALSE
   while(!good) {
@@ -15,8 +15,8 @@ notify <- function() {
     message("\nOs dados abaixo estao corretos?\n")
     message("Seu nome: ", name, "\n", "Enviar Para: ", address)
     
-    yn <- select.list(c("Yes", "No"), graphics = FALSE)
-    if(yn == "Yes") good <- TRUE
+    yn <- select.list(c("Sim", "Não"), graphics = FALSE)
+    if(yn == "Sim") good <- TRUE
   }
   
   # Get course and lesson names

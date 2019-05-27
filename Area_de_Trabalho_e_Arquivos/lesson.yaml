@@ -252,14 +252,17 @@
   Output: "Nesta lição, você aprendeu a examinar seu espaço de trabalho R e
     trabalhe com o sistema de arquivos da sua máquina de dentro do R. Obrigado por brincar conosto! ;-)"
 
+  
 - Class: mult_question
-  Output: Gostaria de informar ao seu instrutor sobre sua conclusão bem-sucedida de
+  Output: "Gostaria de informar ao seu instrutor sobre sua conclusão bem-sucedida de
     esta lição via email? 
-    
+    \n\n\n
     Caso escolher Sim, o instrutor receberá um email comunicando que você terminou a lição.
     O R abrirá duas janelas. Na primeira envie o email avisando o professor. Na segunda, janela
-    clique no botão "Enviar". 
+    clique no botão 'Enviar'."
   CorrectAnswer: NULL
-  AnswerChoices: Sim;Não
+  AnswerChoices: Sim;Nao
   AnswerTests: notify()
   Hint: É importante deixar seu instrutor saber que você terminou a lição.
+  
+  
