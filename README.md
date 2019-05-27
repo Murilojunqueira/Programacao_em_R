@@ -1,25 +1,32 @@
 # Programacao_em_R
 
-Tradução do curso Swril [R Programming Alt](https://github.com/swirldev/swirl_courses/tree/master/R_Programming_Alt), criado para a [Especialização em Ciência de Dados](https://www.coursera.org/specializations/jhu-data-science), Coursera.
+Tradução do para o português curso Swril [R Programming Alt](https://github.com/swirldev/swirl_courses/tree/master/R_Programming_Alt), criado para a [Especialização em Ciência de Dados](https://www.coursera.org/specializations/jhu-data-science), Coursera.
 
 
 
 ### Instalação com o github
 
+Execute os comandos abaixo no R para instalar o curso. Requer conexão com a internet.
+
+```r
+if(!"swirl" %in% rownames(installed.packages())) {install.packages("swirl")}
+library(swirl)
+select_language(language = "portuguese")
+try(uninstall_course("Programacao em R"), silent = TRUE)
+install_course_github("Murilojunqueira", "Programacao_em_R")
+```
+
+### Fazendo o curso
+
+Para acessar o curso, basta executar as seguintes linhas:
+
 ```r
 library(swirl)
-install_course_github("Murilojunqueira", "Programacao_em_R")
+select_language(language = "portuguese")
 swirl()
 ```
 
-
-É recomendado colocar o swril em português, com a seguinte linha:
-
-
-```r
-select_language(language = "portuguese")
-```
-
+E então seguir o caminho dentro do swirl até o curso "Programacao em R"
 
 
 ### Instalação Manual
@@ -34,7 +41,7 @@ source("Instalacao_ProgramacaoR.R")
 
 
 
-### Help
+### Ajuda
 
 Para entrar em contato comigo para essa tradução, me envie um email para mjunqueira@ufpa.br
 
