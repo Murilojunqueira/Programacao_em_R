@@ -260,15 +260,9 @@
 
   
 - Class: mult_question
-  Output: "Gostaria de informar ao seu instrutor sobre sua conclusão bem-sucedida de
-    esta lição via email? 
-    \n\n\n
-    Caso escolher Sim, o instrutor receberá um email comunicando que você terminou a lição.
-    O R abrirá duas janelas. Na primeira envie o email avisando o professor. Na segunda, janela
-    clique no botão 'Enviar'."
+  Output: "Gostaria de informar ao seu instrutor sobre sua conclusão bem-sucedida desta lição? 
   CorrectAnswer: NULL
   AnswerChoices: Sim;Nao
-  AnswerTests: notify()
+  AnswerTests: submit_log()
   Hint: É importante deixar seu instrutor saber que você terminou a lição.
-  
   

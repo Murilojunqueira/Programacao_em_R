@@ -1,4 +1,4 @@
-# Programacao_em_R
+# Programacao em R
 
 Tradução do para o português curso Swril [R Programming Alt](https://github.com/swirldev/swirl_courses/tree/master/R_Programming_Alt), criado para a [Especialização em Ciência de Dados](https://www.coursera.org/specializations/jhu-data-science), Coursera.
 
@@ -6,7 +6,7 @@ Tradução do para o português curso Swril [R Programming Alt](https://github.c
 
 ### Instalação com o github
 
-Execute os comandos abaixo no R para instalar o curso. Requer conexão com a internet.
+Para instalar o curso, execute os comandos abaixo no R. Requer conexão com a internet.
 
 ```r
 if(!"swirl" %in% rownames(installed.packages())) {install.packages("swirl")}
