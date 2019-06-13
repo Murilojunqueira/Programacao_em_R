@@ -169,7 +169,7 @@
 
   
 - Class: mult_question
-  Output: "Gostaria de informar ao seu instrutor sobre sua conclusão bem-sucedida desta lição? 
+  Output: Gostaria de informar ao seu instrutor sobre sua conclusão bem-sucedida desta lição? 
   CorrectAnswer: NULL
   AnswerChoices: Sim;Nao
   AnswerTests: submit_log()
