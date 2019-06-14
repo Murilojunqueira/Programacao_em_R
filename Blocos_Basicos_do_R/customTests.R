@@ -16,6 +16,10 @@ submit_log <- function(){
   #  pre_fill_link <- paste0(pre_fill_link, "=")
   #}
   
+  # Retorna TRUE se o usuário não quiser enviar a resposta ao instrutor.
+  e <- get("e", parent.frame())
+  if(e$val == "No" | e$val == "Nao") return(TRUE)
+  
   
   p <- function(x, p, f, l = length(x)){if(l < p){x <- c(x, rep(f, p - l))};x}
   
