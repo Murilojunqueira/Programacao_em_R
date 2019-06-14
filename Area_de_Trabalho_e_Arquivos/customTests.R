@@ -39,6 +39,9 @@ submit_log <- function(){
   ping <- googleformr::gformr(gformrURL)
   ping(encoded_log)
   
+  # Aviso envio do formulário
+  message("Respostas enviadas ao instrutor!")
+  
   # Finaliza a questão
   return(TRUE)
   
