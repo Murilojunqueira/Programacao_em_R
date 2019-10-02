@@ -208,8 +208,8 @@
   Output: Como temos seis colunas (incluindo nomes de pacientes), primeiro precisamos criar um vetor
     contendo um elemento para cada coluna. Crie um vetor de caracteres chamado cnames que contém o
     valores seguintes (em ordem) - "paciente", "idade", "peso", "pb", "avaliação", "teste".
-  CorrectAnswer: cnames <- c("patient", "age", "weight", "bp", "rating", "test")
-  AnswerTests: omnitest(correctExpr='cnames <- c("patient", "age", "weight", "bp", "rating", "test")')
+  CorrectAnswer: cnames <- c("paciente", "idade", "peso", "pb", "avaliação", "teste")
+  AnswerTests: omnitest(correctExpr='cnames <- c("paciente", "idade", "peso", "pb", "avaliação", "teste")')
   Hint: Certifique-se de que todos os nomes estejam em minúsculas, entre aspas duplas e separados por vírgulas.
     Não esqueça de usar a função c().
 

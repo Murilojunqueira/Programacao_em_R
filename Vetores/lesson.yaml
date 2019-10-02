@@ -83,7 +83,7 @@
 
 - Class: text
   Output: Os símbolos `<` e `>=` nestes exemplos são chamados de 'operadores lógicos'.
-    Outros operadores lógicos incluem `>`, `<=`. O simbolo `==` é a igualdade exata, e `! =` é a 
+    Outros operadores lógicos incluem `>`, `<=`. O simbolo `==` é a igualdade exata, e `!=` é a 
     desigualdade.
 
 - Class: text

@@ -8,3 +8,6 @@ library(swirl)
 select_language(language = "portuguese")
 try(uninstall_course("Programacao em R"), silent = TRUE)
 install_course_github("Murilojunqueira", "Programacao_em_R")
+
+
+swirl()

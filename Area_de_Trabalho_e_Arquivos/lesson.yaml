@@ -149,7 +149,7 @@
   Hint: Use file.exists("mytest.R") para verificar se existe um arquivo.
 
 - Class: text
-  Output: Esses tipos de funções são excessivos para uso interativo. Mas se
+  Output: Esses tipos de funções são excelentes para uso interativo. Mas se
     você está executando um programa que faz um loop através de uma série de arquivos e faz algum
     processamento em cada um, você vai querer verificar para ver se cada arquivo um existe antes
     você tenta processá-lo.
@@ -209,8 +209,8 @@
 
 - Class: cmd_question
   Output: "Dê uma olhada na documentação de dir.create digitando
-    ?dir.create. Observe o argumento 'recursivo'. Para criar diretórios aninhados,
-    'recursiva' deve ser definida como TRUE."
+    ?dir.create. Observe o argumento 'recursive'. Para criar diretórios aninhados,
+    'recursive' deve ser definida como TRUE."
   CorrectAnswer: ?dir.create
   AnswerTests: omnitest(correctExpr='?dir.create')
   Hint: ?dir.create mostrará os documentos.
@@ -221,8 +221,8 @@
     usando dir.create() e file.path().
   CorrectAnswer: dir.create(file.path("testdir2", "testdir3"), recursive = TRUE)
   AnswerTests: omnitest(correctExpr='dir.create(file.path("testdir2", "testdir3"), recursive = TRUE)')
-  Hint: "dir.create(file.path('testdir2', 'testdir3'), recursivo = TRUE) fará
-    o truque. Se você esqueceu o argumento recursivo, o comando pode ter
+  Hint: "dir.create(file.path('testdir2', 'testdir3'), recursive = TRUE) fará
+    o truque. Se você esqueceu o argumento recursive, o comando pode ter
     pareceu funcionar, mas não criou o diretório aninhado."
 
 - Class: cmd_question

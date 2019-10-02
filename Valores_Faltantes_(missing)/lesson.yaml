@@ -49,7 +49,7 @@
 - Class: cmd_question
   Output: "Finalmente, vamos selecionar 100 elementos aleatoriamente desses 2000 valores
     (combinação de y e z) de tal forma que não sabemos quantos NAs vamos acabar ou
-    que posições eles ocuparão em nosso vetor final, que é my_data <- sample(c (y, z), 100)."
+    que posições eles ocuparão em nosso vetor final, que é my_data <- sample(c(y, z), 100)."
   CorrectAnswer: my_data <- sample(c(y, z), 100)
   AnswerTests: omnitest(correctExpr='my_data <- sample(c(y, z), 100)')
   Hint: A função sample() retorna uma amostra aleatória dos dados fornecidos como seu primeiro

@@ -111,6 +111,7 @@ test_eval3 <- function(){
   exists('ok') && isTRUE(ok)
 }
 
+
 # Função para enviar os detalhes das respostas dos alunos
 submit_log <- function(){
   
